@@ -1,0 +1,31 @@
+# Please follow the documentation to fill in the missing values.
+geometric_transformations:
+  rotation:
+    enabled: 
+    angle: 
+  flipping:
+    enabled: 
+    mode: 
+
+color_based_augmentations:
+  brightness_adjustment:
+    enabled: 
+    factor: 
+  contrast_adjustment:
+    enabled: 
+    factor: 
+  gray_scale:
+    enabled: 
+
+noise_augmentations:
+  gaussian_noise:
+    enabled: 
+    mean: 
+    sigma: 
+  motion_blur:
+    enabled: 
+    kernel_size: 
+  gaussian_blur:
+    enabled: 
+    kernel_size: 
+

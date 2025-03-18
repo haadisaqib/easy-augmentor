@@ -1,0 +1,29 @@
+geometric_transformations:
+  rotation:
+    enabled: true
+    angle: 45
+  flipping:
+    enabled: true
+    mode: "horizontal"
+
+color_based_augmentations:
+  brightness_adjustment:
+    enabled: true
+    factor: 1.2
+  contrast_adjustment:
+    enabled: true
+    factor: 1.5
+  gray_scale:
+    enabled: true
+
+noise_augmentations:
+  gaussian_noise:
+    enabled: true
+    mean: 0
+    sigma: 25
+  motion_blur:
+    enabled: true
+    kernel_size: 15
+  gaussian_blur:
+    enabled: true
+    kernel_size: 5
