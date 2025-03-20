@@ -65,7 +65,7 @@ noise_augmentations:
   gaussian_blur:
     enabled: true
     kernel_size: 5  # Kernel size for Gaussian blur
-
+```
 ## **📌 Function Use Cases**
 This table explains when each augmentation should be used:
 
@@ -80,8 +80,6 @@ This table explains when each augmentation should be used:
 | `gaussian_noise()`       | Noise-Based                   | Image Classification, Generative Models (GANs, Diffusion Models) | Improves robustness against real-world noise and sensor imperfections. |
 | `motion_blur()`          | Noise-Based                   | Image Classification (e.g., Traffic Surveillance)     | Simulates motion-induced blurriness in real-world scenarios. |
 | `gaussian_blur()`        | Noise-Based                   | Image Classification, Super-Resolution Models         | Assists in training denoising models; excessive use may reduce sharpness. |
-
-```
 
 ## 📜 License
 
