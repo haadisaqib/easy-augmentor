@@ -13,7 +13,7 @@ A fast, configurable **image augmentation CLI tool** built with **OpenCV** and *
 ## 📥 Installation
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/easy-augmentor.git
+git clone https://github.com/haadisaqib/easy-augmentor.git
 cd easy-augmentor 
 ```
 ### **2️⃣ Install Dependencies**
