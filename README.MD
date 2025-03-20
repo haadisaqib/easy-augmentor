@@ -14,11 +14,12 @@ A fast, configurable **image augmentation CLI tool** built with **OpenCV** and *
 ### **1️⃣ Clone the Repository**
 ```bash
 git clone https://github.com/yourusername/easy-augmentor.git
-cd easy-augmentor
-
+cd easy-augmentor 
+```
 ### **2️⃣ Install Dependencies**
+```
 pip install -r requirements.txt
-
+```
 
 ## **📦 Requirements**
 | **Requirement** | **Version** |
@@ -30,7 +31,7 @@ pip install -r requirements.txt
 ```bash
 python --version
 pip --version
-
+```
 ## **🛠 Configuration**
 The **`user_config.yaml`** file allows customization of image augmentations. Below is a **sample configuration file**:
 
@@ -80,7 +81,8 @@ This table explains when each augmentation should be used:
 | `motion_blur()`          | Noise-Based                   | Image Classification (e.g., Traffic Surveillance)     | Simulates motion-induced blurriness in real-world scenarios. |
 | `gaussian_blur()`        | Noise-Based                   | Image Classification, Super-Resolution Models         | Assists in training denoising models; excessive use may reduce sharpness. |
 
+```
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
